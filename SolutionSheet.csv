@@ -1,0 +1,3 @@
+AlgoExpert Answers Sheet,,,,,,,
+Problem,Category,Solution Hint 1,Time Complexity,Solution Hint 2,Time Complexity,Solution Hint 3,Time Complexity
+2 Sum,Array,Loop Twice and return where sum = target,O(N^2),"Use Hashmap and add difference (target-current_value) as key and current value as value, check for every value in the key and If it’s in the map then return key, value. ",O(N),"Sort Array, using two pointers start and end pointer, manipulate pointer towards target value.",O(NlogN)
